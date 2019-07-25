@@ -9,8 +9,6 @@ The dataset that I have used is a kaggle dataset for identification and segmenta
 **![](https://lh6.googleusercontent.com/Ngzs_qC2dUCs-fRkOOVSumBDYS8R3KI69cVdTWaQA6SxM2Qmlsh6tr39SlN5R_6kn_iV_l3xiAS6B6Lwvl96LL_Yzwj18t3c1H0JSyzHDlt4Q7aRoD2I1qkzjgeXUDnq_HcpO5wR)**
 **Fig**: Row1 consists of original images followed by row2 that consists of original labelled images(Source:[Kaggle](https://www.kaggle.com/paultimothymooney/identification-and-segmentation-of-nuclei-in-cells))
 
-In my approach , i have devided the image in 4 different types namely colored, white background, Black images with big cells and black images with small cells. The reason of doing this was thresholding and the other things that we are doing in segmentation.
-
 ---
 ## Segmentation by SegNet
 The network architecture that i have used here has VGG-166 in downsampling. The network architecture consists of two convolutional layers of kernel (3,3) followed by a maxpool. 
